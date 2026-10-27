@@ -1,0 +1,10 @@
+command to get commit id for release evidence 
+git rev-parse --short HEAD
+
+command to create version tag
+git tag -a v1.0.0 -m "Release version 1.0.0"
+
+
+git push origin v1.0.0
+
+create  new file with name release notes.md 
